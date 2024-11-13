@@ -1,0 +1,162 @@
+body{
+    
+    background-color: rgb(64, 161, 180);
+    text-align: justify;
+    
+}
+
+
+hr{
+    border-color:rgba(0, 0, 0, 0.501);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color:rgb(24, 101, 228);
+    padding: 10px;
+    text-align: center;
+    width: 100%; 
+}
+
+header h1 {
+    
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+marquee {
+    background-color: #0056b3; 
+    padding: 10px;
+    border: 1px solid rgba(34, 34, 34, 0.333);
+    
+
+    border-radius: 15px;
+}
+
+
+nav {
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    padding: 0;
+    background-color:rgb(24, 101, 228);
+}
+
+
+nav fieldset {
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 50px;
+    border: 0.5px solid rgba(34, 34, 34, 0.333);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0058b7;
+    
+}
+
+p{
+    margin: 50px;
+    margin-top: -5px;
+    font-size: 25px;
+   
+}
+
+
+
+h2{
+    
+    text-align: left;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+
+small{
+    color: yellow;
+}
+
+
+
+
+hr{
+    border-color:rgba(0, 0, 0, 0.501);
+}
+
+
+.sabores{
+    border-color: yellow;
+}
+
+dd{
+    font-size: 30px;
+    margin: 50px;
+}
+
+h3{
+    
+    text-align: left;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+
+address p{
+    margin: 20px;
+    
+    font-size: 25px;
+   
+}
+footer{
+    margin-top: -1px;
+    padding: 1px; 
+    background-color:  rgb(24, 101, 228);
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figure{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+blockquote{
+    margin: 50px;
+    text-align: center;
+    
+    margin-bottom: 3px;
+
+}
+
+
+

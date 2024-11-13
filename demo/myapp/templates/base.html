@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="{% static 'myapp/menu.css' %}">
+</head>
+<body>
+    <header>
+        <marquee width="99.9%" direction="right" height="60px"> <h1 class="words">Chocorol Marinela   </h1>         </marquee>
+        <nav>
+            <fieldset>
+            <a href="#">Historia</a>
+            <a href="{% url 'futuro' %}">Vision</a>
+            <a href="Sabores.html">Sabores</a>
+            <a href="{% url 'nutricional' %}">Salud</a>
+            <a href="{% url 'contacto' %}">Contacto</a>
+            </fieldset>
+         
+        </nav>
+
+    </header>
+    <main>
+        <article>   
+            <hr>
+
+
+            <h3>Qué son?</h3>
+            <p>Un chocorol es un pastelito dulce muy popular en México. Está hecho de un bizcocho esponjoso que se enrolla con un relleno de mermelada de fresa o alguna crema saborizada, y está recubierto con una capa de chocolate. Este snack es conocido por su forma cilíndrica y su sabor dulce, que combina la suavidad del bizcocho con el toque frutal del relleno y la cobertura de chocolate.</p>
+            
+            <blockquote cite="https://super.walmart.com.mx/ip/chocoroles-marinela-mini-28-g/00750103041902?srsltid=AfmBOoqs1k6SPBj9RhKysdAHWkajA7uLFz3aNRsdWgtDVxJwIlYIzogp">
+                
+                <i>Choco Roles Marinela </i>son el pastelito que desafía a los establecido, mientras todos los pasteles son aburridamente redondos o cuadrados, Choco Roles <strong>¡es un rollo!</strong>
+
+               
+            </blockquote>
+
+            <iframe class="center" width="760" height="315" src="https://www.youtube.com/embed/q3koP8h-1iM?si=LSm1cv-OC_zUS3UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+            <h3>Historia</h3>
+            <p>La historia del chocorrol está estrechamente vinculada con la evolución de la industria de la repostería y confitería en México. Fue introducido por Grupo Bimbo, una de las empresas de panificación más grandes del mundo, a través de su marca Marinela. Marinela, fundada en la década de 1950, se especializó en la producción de pastelitos, galletas y otros productos dulces que rápidamente se convirtieron en favoritos en el mercado mexicano.</p>
+
+
+            <img class="center" src="https://i.ytimg.com/vi/VvSmXRF8q9A/hqdefault.jpg" alt="">
+            
+
+            <p>Los chocorroles, junto con otros pastelitos de Marinela, se popularizaron debido a su sabor atractivo y su conveniencia como un refrigerio rápido y fácil de llevar. Desde su introducción, se han mantenido como un clásico en las tiendas de conveniencia y supermercados en México, siendo un referente de la repostería industrial en el país. A pesar de no ser considerados saludables por su alto contenido de azúcares y grasas, los chocorroles siguen siendo un antojo frecuente y un símbolo de la infancia para muchas personas en México.</p>
+            
+            
+            
+            
+      
+
+            
+        </article>
+
+        
+        <aside>
+          <p>¡Descubre el placer irresistible de Chocorrol! Deliciosa combinación de chocolate y esponjoso relleno. ¡Prueba uno hoy!     </p>
+          
+        </aside>
+
+
+        <video class="center" controls width="560" height="415" src="https://videos.pexels.com/video-files/4546581/4546581-hd_1920_1080_30fps.mp4"></video>
+        
+        
+
+    </main>
+
+    <hr>
+    <footer>
+        <address>
+
+            <p>Desarrollador por ERIC VENEGAS<sub>🐵</sub></p>
+            <P>Derechos reservados &copy;</P>
+        </address>
+
+    </footer>
+    
+
+
+
+</body>
+</html>

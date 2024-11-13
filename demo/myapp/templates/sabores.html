@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores</title>
+    <link rel="stylesheet" href="{% static 'myapp/StyleSabor.css' %}">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocorol</title>
+</head>
+<body>
+    <header>
+        <marquee width="99.9%" direction="right" height="60px"> <h1 class="words">Chocorol Marinela   </h1>         </marquee>
+        <nav>
+            <fieldset>
+                <a href="{% url 'home' %}">Historia</a>
+                <a href="{% url 'futuro' %}">Vision</a>
+                <a href="#">Sabores</a>
+                <a href="{% url 'nutricional' %}">Salud</a>
+                <a href="{% url 'contacto' %}">Contacto</a>
+            </fieldset>
+         
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <hr>
+            <h2>Diversos sabores</h2>
+            <p>Los chocoroles ofrecen diversos sabores, esto para que los clientes puedan disfrutar a su manera los productos de la marca.</p>
+            <small>Los diferentes sabores de chocorroles son:</small>
+            
+            <dl>
+                <hr class="sabores">
+                <dt><h3>Chocorol Pina</h3></dt>
+                <dd>-Irresistibles rollitos con relleno cremoso y saborizante artificial de piña, con cobertura sabor a chocolate.-</dd>
+                <figure>
+                    <img width="360" height="315" src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00000007500227L.jpg" alt="">
+                    <figcaption><audio controls src="https://codeskulptor-demos.commondatastorage.googleapis.com/descent/bomb.mp3"></audio></figcaption>
+
+                </figure>
+
+                <hr class="sabores">
+                <dt><h3>Chocorol Black</h3></dt>
+                <dd>-Con su única forma de rollo, relleno de deliciosa crema envuelta con jalea ahora podrás disfrutar esos pequeños momentos de intensas emociones, disfrute y sabores únicos.- Se introdujeron el <time datetime="2024/03/01">1 de marzo del 2024</time> a tiendas</dd>
+                <figure>
+                    <img width="360" height="500" src="https://http2.mlstatic.com/D_NQ_NP_730844-MLM77415429615_072024-O.webp" alt="">
+                    <figcaption><audio controls src="https://rpg.hamsterrepublic.com/wiki-images/d/d7/Oddbounce.ogg"></audio></figcaption>
+
+                </figure>
+
+                <hr class="sabores">
+                <dt><h3>Chocorrol Frutos Rojos</h3></dt>
+                <dd>-Con su única forma de rollo, relleno de deliciosa crema envuelta con jalea ahora sabor frutos rojos y cubierta con chocolate para seguir tus antojos.-</dd>
+                <figure>
+                    <img width="360" height="315" src="https://www.tiendalabarata.com.mx/web/image/product.template/17150/image_1024?unique=72c830a" alt="">
+                    <figcaption><audio controls src="https://commondatastorage.googleapis.com/codeskulptor-assets/jump.ogg"></audio></figcaption>
+                </figure>
+
+
+
+
+            </dl>
+
+
+        </article>
+
+    </main>
+
+    <hr>
+    <footer>
+        <address>
+
+            <p>Desarrollador por ERIC VENEGAS</p>
+            <P>Derechos reservados &copy;</P>
+        </address>
+
+    </footer>
+    
+
+
+
+</body>
+</html>
